@@ -9,7 +9,7 @@ RUN apt-get -y install build-essential zlib1g-dev libssl-dev \
                fontconfig libjpeg8 libjpeg-turbo8 libicu52 imagemagick \
                libmagickwand-dev libmagickcore-dev ghostscript libgs-dev libpq-dev
 
-ENV RUBY_DOWNLOAD_SHA256 ba5ba60e5f1aa21b4ef8e9bf35b9ddb57286cb546aac4b5a28c71f459467e507
+ENV RUBY_DOWNLOAD_SHA256 98e18f17c933318d0e32fed3aea67e304f174d03170a38fd920c4fbe49fec0c3
 ADD https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.4.tar.gz /tmp/
 
 # Install ruby
