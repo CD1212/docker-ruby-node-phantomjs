@@ -1,5 +1,5 @@
-FROM ubuntu:14.04
-MAINTAINER Edwin van der Graaf <edwin@digitpaint.nl>
+FROM ubuntu:16.04
+MAINTAINER Chris Dyer <chris@cdyer.co.uk>
 
 RUN apt-get update
 RUN apt-get -y upgrade
